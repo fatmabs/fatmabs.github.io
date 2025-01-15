@@ -1,0 +1,94 @@
+
+  
+
+
+
+
+
+
+
+/* Card Container */
+.welcome-card {
+  background-color: #F5F1E8;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
+  font-family:Arial, Helvetica, sans-serif;
+  color: #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  letter-spacing: 0.9px;
+  top: 20px; /* Ajuste la position verticale */
+  left: 20px; /* Ajuste la position horizontale */
+}
+
+/* .welcome-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.15);
+} */
+
+.welcome-card h1 {
+  font-size: 2rem; /* Adjust size as needed */
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #ff4144;
+ 
+}
+
+.welcome-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+
+.circular-card {
+  background-image: url('src/app/background-img/Photoroom (3).png');
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden; /* Pour que le contenu respecte les bordures circulaires */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optionnel : ajouter une ombre */
+  z-index: 10; /* Assure que cette carte soit au-dessus */
+  position: absolute; /* Carte positionnée au-dessus */
+  top: 100px; /* Ajuste la position verticale */
+  left: 920px; 
+}
+
+
+/* .image-card {
+    background-size: cover;
+    background-position:bottom; 
+    color: white;
+    height: 100vh;
+  }  */
+
+
+
+  .card-container {
+    position: relative; /* Conteneur pour gérer les positions absolues */
+    width: 300px; /* Largeur commune des cartes */
+    height: 200px; /* Hauteur commune des cartes */
+  }
+  
+  .background-card {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0; /* Couleur de fond */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre */
+  }
+  
+  .foreground-card {
+    position: absolute; /* Carte positionnée au-dessus */
+    top: 20px; /* Ajuste la position verticale */
+    left: 20px; /* Ajuste la position horizontale */
+    width: 80%; /* Taille légèrement plus petite */
+    background-color: #ffffff; /* Couleur différente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre plus marquée */
+    
+  }

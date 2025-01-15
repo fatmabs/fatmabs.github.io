@@ -1,0 +1,35 @@
+button{
+    margin-right: 8px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }
+
+.active{
+    color: #ffffff !important;
+    transform: scale(1);
+    background-color: #ff4144;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+  
+}
+
+mat-toolbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  z-index: 1000;
+}
+.cool-text {
+    font-size: 2rem; /* Adjust size as needed */
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    margin: 20px 0;
+  }
